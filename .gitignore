@@ -1,0 +1,33 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+
+# Data and cache directories
+pokemon_data/
+cache/
+checkpoints/
+*.parquet
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Hugging Face cache
+.huggingface/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db 
